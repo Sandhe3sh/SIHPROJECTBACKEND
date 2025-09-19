@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000S\u0000I\u0000H\u0000P\u0000R\u0000O\u0000J\u0000E\u0000C\u0000T\u0000B\u0000A\u0000C\u0000K\u0000E\u0000N\u0000D\u0000\r\u0000 \u0000",
+  "main": "firebase-realtime-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
