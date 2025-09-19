@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1758167709950",
+    "from": "Admin",
+    "to": "all",
+    "message": "hiii",
+    "timestamp": "2025-09-18T03:55:09.950Z",
+    "isRead": false
+  },
+  {
+    "_id": "1758167841439",
+    "from": "Admin",
+    "to": "all",
+    "message": "hii",
+    "timestamp": "2025-09-18T03:57:21.439Z",
+    "isRead": false
+  },
+  {
+    "_id": "1758167954589",
+    "from": "Admin",
+    "to": "all",
+    "message": "Current On",
+    "timestamp": "2025-09-18T03:59:14.589Z",
+    "isRead": false
+  },
+  {
+    "_id": "1758168016000",
+    "from": "User",
+    "to": "admin",
+    "message": "Hiii",
+    "timestamp": "2025-09-18T04:00:16.000Z",
+    "isRead": false
+  },
+  {
+    "_id": "1758168760818",
+    "from": "Admin",
+    "to": "all",
+    "message": "Tmrw shutdown",
+    "timestamp": "2025-09-18T04:12:40.818Z",
+    "isRead": false
+  }
+]
