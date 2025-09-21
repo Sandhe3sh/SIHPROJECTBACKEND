@@ -9,16 +9,17 @@ require('dotenv').config();
 
 const app = express();
 const server = http.createServer(app);
-const io = socketIo(server, {
+ const io = socketIo(server, {
   cors: {
-    origin: "*",
+    origin: "https://sihfrontend-hazel.vercel.app",
     methods: ["GET", "POST"]
   }
 });
 
+
 // Middleware
 app.use(cors({
-  origin: "*",
+  origin: "https://sihfrontend-hazel.vercel.app",
   credentials: true
 }));
 app.use(express.json());
@@ -538,9 +539,16 @@ setInterval(() => {
 
 const PORT = process.env.PORT || 5003;
 server.listen(PORT, () => {
-  console.log(`✅ Server running on port ${PORT}`);
-  console.log(`🌐 Frontend should connect to http://localhost:3000`);
-  console.log(`🔗 Backend API available at http://localhost:${PORT}`);
+ const io = socketIo(server, {
+  cors: {
+    origin: "https://sihfrontend-hazel.vercel.app",
+    methods: ["GET", "POST"]
+  }
+});
+console.log(`✅ Backend running on port ${PORT}`);
+console.log(`🔗 API available at https://sihprojectbackend-3.onrender.com`);
+console.log(`🌐 Frontend connects from https://sihfrontend-hazel.vercel.app`);
+
   console.log(`📊 Real-time sensor data every 5 seconds`);
   console.log(`🗄️ Data stored in MongoDB Atlas`);
 });
